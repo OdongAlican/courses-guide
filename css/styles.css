@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+.navigation {
+  background-color: #d35649;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px 20px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.company-logo {
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.navigation-links ul li {
+  display: inline-block;
+}
+
+.navigation-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 20px 0 0;
+}
+
+.top-most-section {
+  background-image: url("../assets/page-image.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 32em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.central-section {
+  margin: auto;
+}
+
+.main-page-header {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.section-section {
+  background-color: #BABBC3;
+  width: 45%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.search-input-section {
+  display: flex;
+}
+
+.search-input-section input {
+  flex: 2;
+  border: none;
+  height: 3em;
+}
+
+
+.search-input-section button {
+  flex: 1;
+  border: none;
+  background-color: #d35649;
+
+}
+
+.app-description {
+  border: none;
+  background-color: #BABBC3;
+  width: 8em;
+  height: 2em;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.operation-step-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 5em 10%;
+  grid-column-gap: 10em;
+  grid-row-gap: 2em;
+}
+
+.operation-step-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.operation-step-item .image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-details {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.section-details span {
+  display: block;
+  margin: auto;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.operation-step-item img {
+  width: 60px;
+  height: 60px;
+}
+
+.registration-section,
+.registration-section-middle,
+.registration-section-bottom {
+  background-color: #E17E66;
+  padding: 5px 3em;
+}
+
+.registration-section-middle {
+  background-color: #99A5A6;
+}
+
+.registration-section-bottom {
+  background-color: #519CD7;
+}
+
+.registration {
+  display: flex;
+}
+
+.registration-details {
+  width: 50%;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registration-details-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.registration-details button {
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+}
+
+.registration-images {
+  margin-left: auto;
+}
+
+.registration-images img {
+  width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.links-section {
+  display: flex;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid red;
+  margin: 30px 20px 0;
+  background-color: #000;
+}
+
+.added-footer-section-item {
+  flex: 1;
+  margin-left: 1px;
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.added-footer-section-item:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.added-footer-section {
+  display: flex;
+  flex: 4;
+}
+
+.home-section-logo {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-logo {
+position: absolute;
+width: 110px;
+height: 110px;
+top: 0;
+border-radius: 50%;
+margin-top: -40px;
+border: 1px solid #555;
+background-color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer-middle-section {
+  margin: 30px 20px 0;
+}
+
+.page-social-media-links {
+  margin: 30px 20px 0;
+  display: flex;
+}
+
+.page-social-media-links .social-media {
+  flex: 1;
+}
+
+.page-social-media-links .copy-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.page-social-media-links .rights-reserved {
+  display: flex;
+  align-items: center;
+}
+
+.footer-middle-section {
+  display: flex;
+  margin-top: 30px;
+}
+
+.footer-subscription,
+.footer-contact,
+.footer-about {
+  flex: 1;
+  background-color: #aaa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.footer-subscription-search {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer-subscription-search input {
+  border: none;
+  height: 3em;
+  width: 75%;
+}
+
+.footer-subscription-search button {
+  border: none;
+  background-color: #444;
+  padding: 0 15px;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .operation-step-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .operation-step-item {
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: 40px;
+  }
+
+  .image-section {
+    flex: 1;
+  }
+
+  .section-details {
+    flex: 7;
+  }
+
+  .added-footer-section  {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .added-footer-section-item {
+    margin-top: 5px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation, .search-input-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.section-section {
+  width: 90%;
+}
+
+  .search-input-section {
+    height: 5em;
+  }
+
+  .search-input-section input, .search-input-section button {
+    flex: 2;
+  }
+
+  .navigation-links, .search-input-section button {
+    margin-top: 10px;
+  }
+
+  .operation-step-item {
+    flex-direction: column;
+  }
+
+  .registration {
+    flex-direction: column;
+
+  } 
+
+  .added-footer-section  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-middle-section {
+    flex-direction: column;
+  }
+
+  .footer-contact,
+.footer-about  {
+  margin-top: 10px;
+}
+.page-social-media-links {
+  flex-direction: column;
+}
+
+
+.page-social-media-links .social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.page-social-media-links .copy-right,
+.page-social-media-links .rights-reserved{
+  margin-top: 10px;
+  justify-content: center;
+}
+
+}
