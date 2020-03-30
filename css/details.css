@@ -104,19 +104,59 @@ body {
   margin: 0 5px;
 }
 
-
-
 .course-heading-title {
   text-transform: uppercase;
 }
 
+.mapping-directions {
+  padding: 20px 40px;
+}
+
+.directions-details {
+  background-color: cyan;
+  margin-bottom: 20px;
+}
+
+.click-for-details {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.map-directions-heading {
+  display: flex;
+  justify-content: center;
+  color: #d35649;
+}
+
+.google-map-section {
+  margin-top: 20px;
+}
+
+.google-map-section iframe {
+  width: 100%;
+  height: 500px;
+}
+
+/* new */
+
+.page-footer {
+  background-color: #000;
+  padding-top: 45px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* new */
+
 .links-section {
   display: flex;
-  border-top: 1px solid #555;
-  border-bottom: 1px solid red;
-  margin: 30px 20px 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin: 0 20px 0;
   background-color: #000;
 }
+
+
 
 .added-footer-section-item {
   flex: 1;
@@ -145,6 +185,8 @@ body {
   justify-content: center;
 }
 
+/* new */
+
 .bottom-logo {
   position: absolute;
   width: 110px;
@@ -152,21 +194,34 @@ body {
   top: 0;
   border-radius: 50%;
   margin-top: -40px;
-  border: 1px solid #555;
-  background-color: #fff;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* new */
+
 .footer-middle-section {
   margin: 30px 20px 0;
   display: flex;
+  background-color: #000;
 }
 
+/* new */
+
 .page-social-media-links {
-  margin: 30px 20px 0;
+  padding: 20px;
+  margin-top: 10px;
   display: flex;
+  background-color: #1f1f1f;
+  color: #999;
+}
+
+.page-social-media-links i {
+  margin-left: 4px;
 }
 
 .page-social-media-links .social-media {
@@ -184,17 +239,36 @@ body {
   align-items: center;
 }
 
+/* new */
+
+
 .footer-subscription,
 .footer-contact,
 .footer-about {
   flex: 1;
-  background-color: #aaa;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-right: 10px;
   text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-about-heading,
+.footer-contact-heading,
+.footer-subscription-heading {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-color-section {
+  color: #d35649;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .footer-subscription-search {
