@@ -8,6 +8,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.hidden {
+  display: none;
+}
+
 .navigation {
   background-color: #d35649;
   display: flex;
@@ -56,7 +60,6 @@ body {
 }
 
 .course-logo-section span {
-  display: block;
   flex: 2;
   display: flex;
   align-items: center;
@@ -175,17 +178,14 @@ body {
 .google-map-section iframe {
   width: 100%;
   height: 500px;
+  border: none;
 }
-
-/* new */
 
 .page-footer {
   background-color: #000;
   padding-top: 45px;
   font-family: 'Quicksand', sans-serif;
 }
-
-/* new */
 
 .links-section {
   display: flex;
@@ -194,8 +194,6 @@ body {
   margin: 0 20px 0;
   background-color: #000;
 }
-
-
 
 .added-footer-section-item {
   flex: 1;
@@ -224,8 +222,6 @@ body {
   justify-content: center;
 }
 
-/* new */
-
 .bottom-logo {
   position: absolute;
   width: 110px;
@@ -241,15 +237,11 @@ body {
   justify-content: center;
 }
 
-/* new */
-
 .footer-middle-section {
   margin: 30px 20px 0;
   display: flex;
   background-color: #000;
 }
-
-/* new */
 
 .page-social-media-links {
   padding: 20px;
@@ -279,9 +271,6 @@ body {
   align-items: center;
   font-size: 14px;
 }
-
-/* new */
-
 
 .footer-subscription,
 .footer-contact,
@@ -319,7 +308,6 @@ body {
 }
 
 .footer-subscription-search input {
-  border: none;
   height: 3em;
   width: 75%;
   background-color: #000;

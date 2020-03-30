@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 .navigation {
   background-color: #d35649;
   display: flex;
@@ -107,7 +111,7 @@
   font-weight: bold;
   font-size: 18px;
   padding: 15px 15px;
-  color:#222;
+  color: #222;
 }
 
 .operation-steps .general-heading {
@@ -220,15 +224,11 @@
   border-bottom-right-radius: 0;
 }
 
-/* new */
-
 .page-footer {
   background-color: #000;
   padding-top: 45px;
   font-family: 'Quicksand', sans-serif;
 }
-
-/* new */
 
 .links-section {
   display: flex;
@@ -237,8 +237,6 @@
   margin: 0 20px 0;
   background-color: #000;
 }
-
-
 
 .added-footer-section-item {
   flex: 1;
@@ -267,8 +265,6 @@
   justify-content: center;
 }
 
-/* new */
-
 .bottom-logo {
   position: absolute;
   width: 110px;
@@ -284,15 +280,11 @@
   justify-content: center;
 }
 
-/* new */
-
 .footer-middle-section {
   margin: 30px 20px 0;
   display: flex;
   background-color: #000;
 }
-
-/* new */
 
 .page-social-media-links {
   padding: 20px;
@@ -322,9 +314,6 @@
   align-items: center;
   font-size: 14px;
 }
-
-/* new */
-
 
 .footer-subscription,
 .footer-contact,
@@ -362,7 +351,6 @@
 }
 
 .footer-subscription-search input {
-  border: none;
   height: 3em;
   width: 75%;
   background-color: #000;
@@ -380,11 +368,11 @@
   cursor: pointer;
 }
 
-
 @media only screen and (max-width: 1024px) {
   .navigation-links span {
     display: none;
   }
+
   .operation-step-grid {
     display: flex;
     flex-direction: column;
