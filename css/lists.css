@@ -8,15 +8,19 @@
   background-color: #d35649;
   display: flex;
   justify-content: space-between;
-  padding: 10px 15px 20px;
+  padding: 25px 15px;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 
 .company-logo {
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -35,7 +39,7 @@
 .filter-section {
   background-color: #eee;
   padding: 30px 20px;
-  margin-top: 60px;
+  margin-top: 80px;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
@@ -49,13 +53,15 @@
 .filter-course-section-grid {
   text-align: start;
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-columns: 2fr 2fr 2fr 1fr 1fr auto auto auto;
   padding: 2px 0;
-  margin: 30px 0;
+  margin: 30px;
   text-transform: uppercase;
+  grid-gap: 10px;
   font-weight: bolder;
   font-size: 12px;
   color: #555;
+  justify-content: center;
 }
 
 .filter-course-section-grid-item {
@@ -88,7 +94,7 @@ background-color: #e6ac5b;
 
 .filter-course-section-grid-item input,
 .filter-course-section-grid-item select {
-  width: 90%;
+  width: 100%;
   border: 1px solid #777;
   height: 37px;
   border-radius: 5px;
@@ -102,6 +108,8 @@ background-color: #e6ac5b;
 .filter-course-section-grid-item button {
   padding: 0 5px;
   margin-right: 5px;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 .filter-course-section-grid-item select {
@@ -143,6 +151,15 @@ background-color: #e6ac5b;
 
 .search-results-grid-item p {
   margin-left: 10px;
+}
+
+.search-results-grid-item a {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #d35649;
 }
 
 .search-results-grid-item-title {
@@ -258,11 +275,13 @@ background-color: #e6ac5b;
   flex: 1;
   display: flex;
   align-items: center;
+  font-size: 13px;
 }
 
 .page-social-media-links .rights-reserved {
   display: flex;
   align-items: center;
+  font-size: 14px;
 }
 
 /* new */
@@ -307,6 +326,9 @@ background-color: #e6ac5b;
   border: none;
   height: 3em;
   width: 75%;
+  background-color: #000;
+  border: 1px solid #fff;
+  outline: none;
 }
 
 .footer-subscription-search button {
@@ -318,7 +340,9 @@ background-color: #e6ac5b;
 }
 
 @media only screen and (max-width: 1024px) {
-
+  .navigation-links span {
+    display: none;
+  }
  
   .added-footer-section {
     display: grid;
@@ -393,14 +417,8 @@ background-color: #e6ac5b;
     margin: auto;
   }
 
-  .filter-course-section-grid-item label {
-    margin-left: 5%;
-  }
-
   .filter-course-section-grid-item button {
     width: 20%;
-    margin-left: 5%;
-
   }
 
   .search-results-grid {

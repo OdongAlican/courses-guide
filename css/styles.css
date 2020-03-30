@@ -8,15 +8,19 @@
   background-color: #d35649;
   display: flex;
   justify-content: space-between;
-  padding: 10px 15px 20px;
+  padding: 25px 15px;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 
 .company-logo {
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -40,6 +44,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 40px;
 }
 
 .central-section {
@@ -64,6 +69,13 @@
   border-radius: 5px;
 }
 
+.section-section header {
+  text-transform: uppercase;
+  color: #333;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
 .search-input-section {
   display: flex;
 }
@@ -78,16 +90,35 @@
   flex: 1;
   border: none;
   background-color: #d35649;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
 }
 
 .app-description {
   border: none;
   background-color: #babbc3;
   width: 8em;
-  height: 2em;
   display: block;
   margin: auto;
   margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px 15px;
+  color:#222;
+}
+
+.operation-steps .general-heading {
+  text-align: center;
+}
+
+.operation-steps .general-heading h2 {
+  color: #d35649;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  margin-top: 20px;
 }
 
 .operation-step-grid {
@@ -111,8 +142,8 @@
 
 .section-details {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
 }
 
 .section-details span {
@@ -120,7 +151,7 @@
   margin: auto;
   padding: 10px 0;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .operation-step-item img {
@@ -161,6 +192,10 @@
   font-weight: bold;
 }
 
+.registration-details-text {
+  margin: 10px 0;
+}
+
 .registration-details button {
   border: none;
   font-size: 16px;
@@ -176,6 +211,13 @@
   width: 250px;
   height: 250px;
   border-radius: 50%;
+}
+
+.registration-images-phone-image img {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* new */
@@ -272,11 +314,13 @@
   flex: 1;
   display: flex;
   align-items: center;
+  font-size: 13px;
 }
 
 .page-social-media-links .rights-reserved {
   display: flex;
   align-items: center;
+  font-size: 14px;
 }
 
 /* new */
@@ -321,6 +365,11 @@
   border: none;
   height: 3em;
   width: 75%;
+  background-color: #000;
+  border: 1px solid #fff;
+  outline: none;
+  padding: 5px;
+  color: #777;
 }
 
 .footer-subscription-search button {
@@ -333,6 +382,9 @@
 
 
 @media only screen and (max-width: 1024px) {
+  .navigation-links span {
+    display: none;
+  }
   .operation-step-grid {
     display: flex;
     flex-direction: column;
