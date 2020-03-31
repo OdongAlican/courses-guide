@@ -4,7 +4,7 @@ This project is used to provide guide to the Software development courses
 > This website is designed to allow users access various programming courses online. Some of the courses can actuall be delivered to users at the premises of the company. These are mainly programming based courses like JavaScript, Ruby, Java and many others. A user selects a suitable course and applies for that particular course. The courses are available for a certain duration.
 
 # Project Presentation Video
-[![Video Screeshot](assets/capstone_video.png)](https://youtu.be/mgXEtzeRCg8)
+[![Video Screeshot](assets/capstone_video.PNG)](https://youtu.be/mgXEtzeRCg8)
 
 ## Home Page
 # Desktop View
