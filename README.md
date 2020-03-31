@@ -8,33 +8,33 @@ This project is used to provide guide to the Software development courses
 
 ## Home Page
 # Desktop View
-![screenshot](assets/Home_Desktop.png)
+![screenshot](assets/Home_Desktop.PNG)
 
 # Tablet View
-![screenshot](assets/Home_Tab.png)
+![screenshot](assets/Home_Tab.PNG)
 
 # Mobile View
-![screenshot](assets/Home_Mobile.png)
+![screenshot](assets/Home_Mobile.PNG)
 
 ## List Result Page
 # Desktop View
-![screenshot](assets/Courses_Desktop.png)
+![screenshot](assets/Courses_Desktop.PNG)
 
 # Tablet View
-![screenshot](assets/Courses_Tab.png)
+![screenshot](assets/Courses_Tab.PNG)
 
 # Mobile View
-![screenshot](assets/Courses_Mobile.png)
+![screenshot](assets/Courses_Mobile.PNG)
 
 ## Details Page
 # Desktop View
-![screenshot](assets/Details_Desktop.png)
+![screenshot](assets/Details_Desktop.PNG)
 
 # Tablet View
-![screenshot](assets/Details_Tab.png)
+![screenshot](assets/Details_Tab.PNG)
 
 # Mobile View
-![screenshot](assets/Details_Mobile.png)
+![screenshot](assets/Details_Mobile.PNG)
 
 ## Built With
 
