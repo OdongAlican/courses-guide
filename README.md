@@ -16,26 +16,6 @@ This project is used to provide guide to the Software development courses
 # Mobile View
 ![screenshot](assets/Home_Mobile.PNG)
 
-## List Result Page
-# Desktop View
-![screenshot](assets/Courses_Desktop.PNG)
-
-# Tablet View
-![screenshot](assets/Courses_Tab.PNG)
-
-# Mobile View
-![screenshot](assets/Courses_Mobile.PNG)
-
-## Details Page
-# Desktop View
-![screenshot](assets/Details_Desktop.PNG)
-
-# Tablet View
-![screenshot](assets/Details_Tab.PNG)
-
-# Mobile View
-![screenshot](assets/Details_Mobile.PNG)
-
 ## Built With
 
 - HTML

@@ -27,6 +27,12 @@
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.company-logo h1 {
+  margin-left: 10px;
 }
 
 .navigation-links ul li {
@@ -150,7 +156,7 @@
   font-size: 15px;
 }
 
-.section-details span {
+.section-details h5 {
   display: block;
   margin: auto;
   padding: 10px 0;
@@ -167,7 +173,7 @@
 .registration-section-middle,
 .registration-section-bottom {
   background-color: #e17e66;
-  padding: 5px 3em;
+  padding: 20px 3em;
 }
 
 .registration-section-middle {
@@ -205,6 +211,7 @@
   font-size: 16px;
   padding: 10px;
   width: 150px;
+  border-radius: 3px;
 }
 
 .registration-images {
@@ -245,6 +252,8 @@
   display: flex;
   justify-content: center;
   color: #fff;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .added-footer-section-item:hover {
@@ -333,9 +342,14 @@
 .footer-contact-heading,
 .footer-subscription-heading {
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-contact-heading-details {
+  font-size: 14px;
+  color: #aaa;
 }
 
 .page-color-section {
