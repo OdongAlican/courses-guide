@@ -1,0 +1,24 @@
+{
+  "name": "courses-guide",
+  "version": "1.0.0",
+  "description": "This project is used to provide guide to the Software development courses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OdongAlican/courses-guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OdongAlican/courses-guide/issues"
+  },
+  "homepage": "https://github.com/OdongAlican/courses-guide#readme",
+  "devDependencies": {
+    "stylelint": "^13.2.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
