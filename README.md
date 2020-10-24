@@ -1,5 +1,5 @@
 # courses-guide project
-This project is used to provide guide to the Software development courses 
+This project is the user interface or the front-end of a course guide application. With this application, users can search for various software development courses and purchase them. This application is built for all devices i.e mobiles, laptops, and tabs.
 
 > This website is designed to allow users access various programming courses online. Some of the courses can actuall be delivered to users at the premises of the company. These are mainly programming based courses like JavaScript, Ruby, Java and many others. A user selects a suitable course and applies for that particular course. The courses are available for a certain duration.
 
